@@ -154,7 +154,7 @@ def naver_crawler():
     result_list = remove_stopword(result_list)
     print(str(result_list))
     # 데이터 시각화
-    draw_cloud(result_list, 'naver_' + section_string + '_' + date + '.png')
+    draw_cloud(result_list, './resultData/naver_' + section_string + '_' + date + '.png')
     print('FINISHED')
 
 if __name__ == '__main__':
